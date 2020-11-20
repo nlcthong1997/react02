@@ -1,0 +1,6 @@
+.header { 
+    position: 'fixed' !important;
+    z-index: 1 !important;
+    width: '100%'; 
+    background-color: #fff !important;;
+}
