@@ -4,7 +4,7 @@ const SignUp = () => {
   return (
     <div>
         <h2>
-            123123
+          This form SignUp
         </h2>
     </div>
   );

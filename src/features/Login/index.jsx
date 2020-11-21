@@ -11,10 +11,10 @@ const Login = () => {
   console.log(abc());
   return (
     <Row gutter={[24, 24]}>
-      <Col xs={24} md={24} lg={16}>
+      <Col xs={24} md={24} lg={16} xl={18}>
         <Slider/>
       </Col>
-      <Col xs={24} md={24} lg={8}>
+      <Col xs={24} md={24} lg={8} xl={6}>
         <Switch>
           <Redirect exact from={url} to={`${url}/login`}></Redirect>
 
@@ -26,9 +26,7 @@ const Login = () => {
             <SignUp/>
           </Route>
           
-          <Route>
-            <div>dsdsad</div>
-          </Route>
+          <Redirect to="/auth/login"></Redirect>
         </Switch>
       </Col>
     </Row>
